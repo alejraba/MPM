@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Dominio" version="4">
+  <OBJECT>
+    <ID name="Dominio" mc="Standard.Package" uid="e723af3a-9014-42bc-86f0-84d1bf8f3aae"/>
+    <PID name="MPM" mc="Standard.Project" uid="e6c63879-5f03-4ac2-9dd0-00517d6780a8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Dominio]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Usuario" mc="Standard.Class" uid="55dbb23d-ba1e-4df3-94c9-67671b509003"/>
+        <COMPID name="Carta" mc="Standard.Class" uid="8ce0dff6-0a74-4106-904b-3edbaa0f304f"/>
+        <COMPID name="Mano" mc="Standard.Class" uid="50c84efe-afaf-4e17-8bf3-bd622a1f671a"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Modelo de dominio" mc="Standard.ClassDiagram" uid="2d404d56-a1d4-4308-8b71-7e05ad69d1d9"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

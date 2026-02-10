@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Modelo de dominio" version="4">
+  <OBJECT>
+    <ID name="Modelo de dominio" mc="Standard.ClassDiagram" uid="2d404d56-a1d4-4308-8b71-7e05ad69d1d9"/>
+    <PID name="Dominio" mc="Standard.Package" uid="e723af3a-9014-42bc-86f0-84d1bf8f3aae"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">12</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,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]]></ATT>
+      <ATT name="JsStructure"><![CDATA[55dbb23d-ba1e-4df3-94c9-67671b509003,Standard.Class,77,10,100,80|8ce0dff6-0a74-4106-904b-3edbaa0f304f,Standard.Class,229,17,100,80|50c84efe-afaf-4e17-8bf3-bd622a1f671a,Standard.Class,10,158,100,80]]></ATT>
+      <ATT name="Name"><![CDATA[Modelo de dominio]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="Usuario" mc="Standard.Class" uid="55dbb23d-ba1e-4df3-94c9-67671b509003"/>
+        <ID name="Carta" mc="Standard.Class" uid="8ce0dff6-0a74-4106-904b-3edbaa0f304f"/>
+        <ID name="Mano" mc="Standard.Class" uid="50c84efe-afaf-4e17-8bf3-bd622a1f671a"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="2c4d23d5-e5af-4b04-96de-9dd77d75c3e5"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
