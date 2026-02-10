@@ -17,6 +17,10 @@
         <COMPID name="Usuario" mc="Standard.Class" uid="55dbb23d-ba1e-4df3-94c9-67671b509003"/>
         <COMPID name="Carta" mc="Standard.Class" uid="8ce0dff6-0a74-4106-904b-3edbaa0f304f"/>
         <COMPID name="Mano" mc="Standard.Class" uid="50c84efe-afaf-4e17-8bf3-bd622a1f671a"/>
+        <COMPID name="Suscripción" mc="Standard.Class" uid="3dd11808-9e39-4310-8121-1d559bfdf3fd"/>
+        <COMPID name="Sistema de pago" mc="Standard.Class" uid="c173e4c9-9f9d-4405-a2a5-adb718c6a4d5"/>
+        <COMPID name="FasePartida" mc="Standard.Class" uid="d4f358c6-3df9-4a05-bf2c-34070156d45e"/>
+        <COMPID name="Análisis" mc="Standard.Class" uid="5ff299e1-0f55-4f6e-9385-1657a0e49b18"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Modelo de dominio" mc="Standard.ClassDiagram" uid="2d404d56-a1d4-4308-8b71-7e05ad69d1d9"/>
