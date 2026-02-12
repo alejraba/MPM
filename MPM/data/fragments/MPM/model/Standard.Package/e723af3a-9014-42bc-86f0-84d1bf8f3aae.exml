@@ -21,7 +21,10 @@
         <COMPID name="Sistema de pago" mc="Standard.Class" uid="c173e4c9-9f9d-4405-a2a5-adb718c6a4d5"/>
         <COMPID name="FasePartida" mc="Standard.Class" uid="d4f358c6-3df9-4a05-bf2c-34070156d45e"/>
         <COMPID name="Análisis" mc="Standard.Class" uid="5ff299e1-0f55-4f6e-9385-1657a0e49b18"/>
-        <COMPID name="Dominio" mc="Standard.Package" uid="8074e2de-ff6c-431c-9a4c-38bf4f07e368"/>
+        <COMPID name="Plan" mc="Standard.Class" uid="23a3aea6-be11-49f0-ba86-1c6ed8f4c0af"/>
+        <COMPID name="Partida" mc="Standard.Class" uid="f87b5d2f-d2b8-4168-ba33-f2a6a2dfa331"/>
+        <COMPID name="Análisis profundo" mc="Standard.Class" uid="8a3e67bd-2346-408f-8f92-bf3120adb0bc"/>
+        <COMPID name="Análisis Simple" mc="Standard.Class" uid="2d2c95ac-4bd0-49bc-b775-7d90b73bc18d"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Modelo de dominio" mc="Standard.ClassDiagram" uid="2d404d56-a1d4-4308-8b71-7e05ad69d1d9"/>
