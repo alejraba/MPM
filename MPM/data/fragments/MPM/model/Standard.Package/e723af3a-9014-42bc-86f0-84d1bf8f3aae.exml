@@ -16,7 +16,7 @@
       <COMP relation="OwnedElement">
         <COMPID name="Usuario" mc="Standard.Class" uid="55dbb23d-ba1e-4df3-94c9-67671b509003"/>
         <COMPID name="Carta" mc="Standard.Class" uid="8ce0dff6-0a74-4106-904b-3edbaa0f304f"/>
-        <COMPID name="Mano" mc="Standard.Class" uid="50c84efe-afaf-4e17-8bf3-bd622a1f671a"/>
+        <COMPID name="Mano Jugador" mc="Standard.Class" uid="50c84efe-afaf-4e17-8bf3-bd622a1f671a"/>
         <COMPID name="Suscripción" mc="Standard.Class" uid="3dd11808-9e39-4310-8121-1d559bfdf3fd"/>
         <COMPID name="Sistema de pago" mc="Standard.Class" uid="c173e4c9-9f9d-4405-a2a5-adb718c6a4d5"/>
         <COMPID name="FasePartida" mc="Standard.Class" uid="d4f358c6-3df9-4a05-bf2c-34070156d45e"/>
@@ -25,6 +25,7 @@
         <COMPID name="Partida" mc="Standard.Class" uid="f87b5d2f-d2b8-4168-ba33-f2a6a2dfa331"/>
         <COMPID name="Análisis profundo" mc="Standard.Class" uid="8a3e67bd-2346-408f-8f92-bf3120adb0bc"/>
         <COMPID name="Análisis Simple" mc="Standard.Class" uid="2d2c95ac-4bd0-49bc-b775-7d90b73bc18d"/>
+        <COMPID name="Baraja" mc="Standard.Class" uid="73927a0c-e62c-4b3a-b14e-22e381d041bb"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Modelo de dominio" mc="Standard.ClassDiagram" uid="2d404d56-a1d4-4308-8b71-7e05ad69d1d9"/>

@@ -115,8 +115,8 @@
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
@@ -245,7 +245,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="mano" mc="Standard.AssociationEnd" uid="e162563b-0d6c-4449-94eb-d306456086ab"/>
+          <ID name="tiene una mano" mc="Standard.AssociationEnd" uid="e162563b-0d6c-4449-94eb-d306456086ab"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -258,12 +258,12 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[mano]]></ATT>
+            <ATT name="Name"><![CDATA[tiene una mano]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Mano" mc="Standard.Class" uid="50c84efe-afaf-4e17-8bf3-bd622a1f671a"/>
+              <ID name="Mano Jugador" mc="Standard.Class" uid="50c84efe-afaf-4e17-8bf3-bd622a1f671a"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
@@ -285,7 +285,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="mano" mc="Standard.AssociationEnd" uid="e162563b-0d6c-4449-94eb-d306456086ab"/>
+                    <COMPID name="tiene una mano" mc="Standard.AssociationEnd" uid="e162563b-0d6c-4449-94eb-d306456086ab"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
@@ -302,6 +302,22 @@
             </COMP>
             <COMP relation="Association">
               <COMPID name="" mc="Standard.Association" uid="e9ad97a1-d4e1-4380-bd29-f8b715011edc"/>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="4a9f2820-ea0d-4ff0-bc3a-7fe0d7f520ad"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
