@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Estado: enum" version="4">
+  <OBJECT>
+    <ID name="Estado: enum" mc="Standard.DataType" uid="2c3ec049-ce50-4b0f-9c8c-ba41c9a9132a"/>
+    <PID name="Sistema de pago" mc="Standard.Class" uid="c173e4c9-9f9d-4405-a2a5-adb718c6a4d5"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Estado: enum]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

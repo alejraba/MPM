@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="fecha_pago: string" version="4">
+  <OBJECT>
+    <ID name="fecha_pago: string" mc="Standard.DataType" uid="4f6507e6-e190-4620-beba-630b866523a9"/>
+    <PID name="Sistema de pago" mc="Standard.Class" uid="c173e4c9-9f9d-4405-a2a5-adb718c6a4d5"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[fecha_pago: string]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

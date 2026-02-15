@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ExportarPDF" version="4">
+  <OBJECT>
+    <ID name="ExportarPDF" mc="Standard.Class" uid="40695bf0-827e-416e-9417-cbddf6b1bf34"/>
+    <PID name="Dominio" mc="Standard.Package" uid="e723af3a-9014-42bc-86f0-84d1bf8f3aae"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ExportarPDF]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="c17b370d-8f66-4e99-9e78-66333804d201"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Exportacion" mc="Standard.Class" uid="c2b46123-0cd8-43f4-b9c3-ff83d546b8be"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="anyadirGraficos: boolean" mc="Standard.DataType" uid="6b2892fd-9a87-471e-b07d-5470257071b2"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

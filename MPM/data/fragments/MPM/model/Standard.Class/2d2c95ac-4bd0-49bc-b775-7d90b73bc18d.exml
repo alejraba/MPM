@@ -30,6 +30,9 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="margenError: double" mc="Standard.DataType" uid="c8882790-b8d7-409b-8057-e516dcbd5a18"/>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

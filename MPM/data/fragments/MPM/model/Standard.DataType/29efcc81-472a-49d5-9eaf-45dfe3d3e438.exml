@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tipoSeparador: string" version="4">
+  <OBJECT>
+    <ID name="tipoSeparador: string" mc="Standard.DataType" uid="29efcc81-472a-49d5-9eaf-45dfe3d3e438"/>
+    <PID name="ExportarCSV" mc="Standard.Class" uid="f2c5d50f-6199-4ae6-bc96-1361cb25d52b"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tipoSeparador: string]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Exportacion" version="4">
+  <OBJECT>
+    <ID name="Exportacion" mc="Standard.Class" uid="c2b46123-0cd8-43f4-b9c3-ff83d546b8be"/>
+    <PID name="Dominio" mc="Standard.Package" uid="e723af3a-9014-42bc-86f0-84d1bf8f3aae"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Exportacion]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="219f71d7-be4a-44e4-aa88-10d2043a9c71"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Estadísticas" mc="Standard.Class" uid="42a46bb6-2d6e-46eb-b36e-dd5c143ff8b3"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="nombreArchivo: string" mc="Standard.DataType" uid="84727e99-c085-4bef-86df-6c0d5c745f6e"/>
+        <COMPID name="fuente: string" mc="Standard.DataType" uid="3689b0af-fa67-47fc-a368-0c780073fcb6"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

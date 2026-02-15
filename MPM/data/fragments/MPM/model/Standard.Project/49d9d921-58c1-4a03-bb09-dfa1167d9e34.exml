@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MPM" version="4">
+  <OBJECT>
+    <ID name="MPM" mc="Standard.Project" uid="49d9d921-58c1-4a03-bb09-dfa1167d9e34"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[MPM]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="mpm" mc="Standard.Package" uid="833bdca1-da16-4622-b15d-cc3fb3994679"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="MPM" mc="Infrastructure.DiagramSet" uid="81b5b8fd-87f0-445e-af14-608fdd09c7bd"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

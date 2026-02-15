@@ -14,6 +14,39 @@
       <ATT name="Name"><![CDATA[Sistema de pago]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
-    <DEPENDENCIES></DEPENDENCIES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="Precio" mc="Standard.Attribute" uid="eedbec38-f519-41e6-b417-9d52091e5237"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[Precio]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="double" mc="Standard.DataType" uid="00000004-0000-0010-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="id: integer" mc="Standard.DataType" uid="3c67d53c-2949-49a1-a3cc-163c70270c3b"/>
+        <COMPID name="Estado: enum" mc="Standard.DataType" uid="2c3ec049-ce50-4b0f-9c8c-ba41c9a9132a"/>
+        <COMPID name="metodo_pago: enum" mc="Standard.DataType" uid="080cd771-a22f-4146-b5ac-b165459ce1a2"/>
+        <COMPID name="fecha_pago: string" mc="Standard.DataType" uid="4f6507e6-e190-4620-beba-630b866523a9"/>
+      </COMP>
+    </DEPENDENCIES>
   </OBJECT>
 </EXT>

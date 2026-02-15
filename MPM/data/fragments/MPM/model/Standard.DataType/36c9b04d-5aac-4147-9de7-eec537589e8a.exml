@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="valorTotal: integer" version="4">
+  <OBJECT>
+    <ID name="valorTotal: integer" mc="Standard.DataType" uid="36c9b04d-5aac-4147-9de7-eec537589e8a"/>
+    <PID name="ManoJugador" mc="Standard.Class" uid="50c84efe-afaf-4e17-8bf3-bd622a1f671a"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[valorTotal: integer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

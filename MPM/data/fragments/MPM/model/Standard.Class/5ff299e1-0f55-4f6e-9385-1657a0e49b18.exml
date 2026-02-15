@@ -89,6 +89,77 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <COMP relation="OwnedEnd">
+        <OBJECT>
+          <ID name="Consulta" mc="Standard.AssociationEnd" uid="451aad7c-4860-4652-adc8-68b6a7407bb3"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[Consulta]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="ManoJugador" mc="Standard.Class" uid="50c84efe-afaf-4e17-8bf3-bd622a1f671a"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="Standard.AssociationEnd" uid="322bc249-681d-42ce-a618-0a2ae7778f64"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">AccesNone</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="Consulta" mc="Standard.AssociationEnd" uid="451aad7c-4860-4652-adc8-68b6a7407bb3"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="Consulta Mano Jugador" mc="Standard.Association" uid="242ba102-6213-4089-a155-6d1001b20b76"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[Consulta Mano Jugador]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="Consulta Mano Jugador" mc="Standard.Association" uid="242ba102-6213-4089-a155-6d1001b20b76"/>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="probChica: double" mc="Standard.DataType" uid="fd0e9021-13a9-4cab-a2ef-6aa015bcd706"/>
+        <COMPID name="probGrande: double" mc="Standard.DataType" uid="f8c2e658-eba0-4fb2-b10f-9c3ce0e51f26"/>
+        <COMPID name="probPares: double" mc="Standard.DataType" uid="6d0fe572-82a8-4c89-a848-bd8efee44e3c"/>
+        <COMPID name="probJuego: double" mc="Standard.DataType" uid="5ee05850-6b64-4969-91c9-d1137fef2d95"/>
+        <COMPID name="victoriaEstimada: double" mc="Standard.DataType" uid="014e03b4-fb46-4bb0-90d5-aa4972df96f0"/>
+        <COMPID name="manoActual: ManoJugador" mc="Standard.DataType" uid="748f82e5-145f-4b2f-88c5-25ccbf3d9691"/>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tienePar: boolean" version="4">
+  <OBJECT>
+    <ID name="tienePar: boolean" mc="Standard.DataType" uid="d3a5ba91-50b2-4112-bcc2-a2e41d9e3cc7"/>
+    <PID name="ManoJugador" mc="Standard.Class" uid="50c84efe-afaf-4e17-8bf3-bd622a1f671a"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tienePar: boolean]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

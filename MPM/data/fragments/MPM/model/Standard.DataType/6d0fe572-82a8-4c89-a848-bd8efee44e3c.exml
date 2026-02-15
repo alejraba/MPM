@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="probPares: double" version="4">
+  <OBJECT>
+    <ID name="probPares: double" mc="Standard.DataType" uid="6d0fe572-82a8-4c89-a848-bd8efee44e3c"/>
+    <PID name="Análisis" mc="Standard.Class" uid="5ff299e1-0f55-4f6e-9385-1657a0e49b18"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[probPares: double]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

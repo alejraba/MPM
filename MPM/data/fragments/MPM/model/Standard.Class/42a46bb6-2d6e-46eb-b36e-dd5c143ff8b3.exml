@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Estadísticas" version="4">
+  <OBJECT>
+    <ID name="Estadísticas" mc="Standard.Class" uid="42a46bb6-2d6e-46eb-b36e-dd5c143ff8b3"/>
+    <PID name="Dominio" mc="Standard.Package" uid="e723af3a-9014-42bc-86f0-84d1bf8f3aae"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Estadísticas]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="totalSesiones: integer" mc="Standard.DataType" uid="1aa8aa59-538a-44d0-831b-90a918c10f9c"/>
+        <COMPID name="aciertosTasa: double" mc="Standard.DataType" uid="991a1067-7e8d-400a-9178-897d339864e3"/>
+        <COMPID name="fallos: integer" mc="Standard.DataType" uid="9b63b851-9b01-4046-92a2-5d40f81054d4"/>
+        <COMPID name="nivelProgreso: double" mc="Standard.DataType" uid="6387881b-b99a-41cd-a4a0-2b7d28fc401f"/>
+        <COMPID name="tiempoTotal: float" mc="Standard.DataType" uid="411ef264-0249-47d8-a2ea-6b83341f9939"/>
+        <COMPID name="fallosFase: Map&lt;string,integer&gt;" mc="Standard.DataType" uid="cdcc7e37-6dfa-46cd-8030-d4562b66d951"/>
+        <COMPID name="rendimientoHistorico: List&lt;Double&gt;" mc="Standard.DataType" uid="d73dc70f-a26d-42cb-a9a6-d022765b8c7c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

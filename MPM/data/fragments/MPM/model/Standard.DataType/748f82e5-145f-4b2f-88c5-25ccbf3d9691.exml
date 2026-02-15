@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="manoActual: ManoJugador" version="4">
+  <OBJECT>
+    <ID name="manoActual: ManoJugador" mc="Standard.DataType" uid="748f82e5-145f-4b2f-88c5-25ccbf3d9691"/>
+    <PID name="Análisis" mc="Standard.Class" uid="5ff299e1-0f55-4f6e-9385-1657a0e49b18"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[manoActual: ManoJugador]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

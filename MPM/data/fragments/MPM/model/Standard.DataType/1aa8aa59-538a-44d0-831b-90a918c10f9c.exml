@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="totalSesiones: integer" version="4">
+  <OBJECT>
+    <ID name="totalSesiones: integer" mc="Standard.DataType" uid="1aa8aa59-538a-44d0-831b-90a918c10f9c"/>
+    <PID name="Estadísticas" mc="Standard.Class" uid="42a46bb6-2d6e-46eb-b36e-dd5c143ff8b3"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[totalSesiones: integer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

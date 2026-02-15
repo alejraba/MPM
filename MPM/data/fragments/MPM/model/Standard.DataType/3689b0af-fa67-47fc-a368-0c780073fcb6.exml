@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="fuente: string" version="4">
+  <OBJECT>
+    <ID name="fuente: string" mc="Standard.DataType" uid="3689b0af-fa67-47fc-a368-0c780073fcb6"/>
+    <PID name="Exportacion" mc="Standard.Class" uid="c2b46123-0cd8-43f4-b9c3-ff83d546b8be"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[fuente: string]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

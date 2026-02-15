@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MPM" version="4">
+  <OBJECT>
+    <ID name="MPM" mc="Infrastructure.DiagramSet" uid="b87cc943-cd9b-48bd-9bdd-171e52109334"/>
+    <PID name="MPM" mc="Standard.Project" uid="e6c63879-5f03-4ac2-9dd0-00517d6780a8"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[MPM]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
